@@ -1,18 +1,20 @@
-# E103
+# PLANTY
 
-> 호미두
+> 팀명 : 호미두
 
 ## 주요 기능
+
+- 유저기반 식물 추천
+- 키워드기반 식물 추천
+- 나의 정원 시스템을 통한 식물 관리
+- 남의 정원 시스템을 이용한 다른 사용자들과의 피드 공유
+- 식물 이상형 월드컵
 
 # ⚙️ 시스템 환경 및 구성
 
 ## 시스템 환경
 
--
-
-## 시스템 구성
-
--
+- AWS, ubuntu
 
 ## 개발 환경
 
@@ -33,15 +35,19 @@
 - Webex
 - Mattermost
 
-# 서비스 아키텍처
+# 시스템 아키텍처
 
-![서비스 아키텍쳐]()
+![시스템아키텍쳐](README_assets/systemarchitecher.png)
 
 # 데이터 설계
 
 ## ERD
 
-![ERD]()
+![ERD1](README_assets/erd1.png)
+![ERD2](README_assets/erd2.png)
+![ERD3](README_assets/erd3.png)
+![ERD4](README_assets/erd4.png)
+![ERD5](README_assets/erd5.png)
 
 # 와이어프레임 및 프로토타입
 
@@ -127,7 +133,6 @@ $ git commit
 ## 기능 상세 설명
 
 - 기능에서 어떤 부분이 구현되어야 하는 지 설명해주세요
-
 ```
 
 ## 협업 전략
@@ -145,6 +150,10 @@ $ git push origin 브랜치
 
 1. 내 레포지토리의 브랜치에 푸시
 2. 내 레포지토리에서 팀 레포지토리로 머지 리퀘스트 넣기
+
+## Git ignore
+
+![](README_assets/2022-09-05-17-18-25-image.png)
 
 # 팀원 소개 및 역할
 
