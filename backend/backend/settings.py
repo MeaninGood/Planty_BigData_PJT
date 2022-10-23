@@ -100,29 +100,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
-# 테스트용 데이터베이스
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-# 테스트용 서버 데이터베이스
-# DATABASES = {
-#    'default': {
-#        'ENGINE': "django.db.backends.mysql",
-#        'NAME': "homidu",
-#        'USER': "root",
-#        'PASSWORD': "zeitfox",
-#        'HOST': "49.173.95.241",
-#        'PORT': "13306",
-#    }
-# }
-
 # 서버 데이터베이스
 DATABASES = secrets['DATABASES']
 
